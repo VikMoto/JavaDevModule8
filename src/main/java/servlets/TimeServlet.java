@@ -38,7 +38,6 @@ public class TimeServlet extends HttpServlet {
         String time = now
                 .format((DateTimeFormatter.ofPattern("yyyy-MM-dd  HH:mm:ss"))) + " UTC";
 
-
         out.println("<html>");
         out.println("<head><title>Поточний час</title></head>");
         out.println("<body>");
